@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+ body {
+    min-height: 100vh;
+    padding: 10px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f6;
+ }
+
+
+ .todo-card {
+    background: #fff;
+    width: 600px;
+    max-width: 700px;
+    padding: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .list-count {
+    align-self: flex-end;
+    margin-top: 20px;
+ }
+
+ .input-box {
+    background: #edecec;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+
+ .input-box input {
+    flex: 1;
+    outline: none;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+ }
+
+ .input-box button {
+    padding: 10px 8%;
+    background: #1a1a2e;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+.list-container {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-container li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-container li:last-child {
+    border-bottom: none;
+}
+
+.complete-task {
+    text-decoration: line-through;
+    color: #555;
+}
+
+.task {
+    cursor: pointer;
+}
+
+.remove-btn {
+    background: #e94560;
+    border: none;
+    padding: 10px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 6px;
+}
+
+.initial-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: 1.4rem;
+}
