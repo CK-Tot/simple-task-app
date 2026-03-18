@@ -11,8 +11,7 @@ A clean, minimal todo list app built with vanilla HTML, CSS, and JavaScript.
 - Empty state message when no tasks exist
 
 ## Live Demo
-
-[Add your GitHub Pages link here]
+[https://ck-tot.github.io/simple-task-app/]
 
 ## Built With
 
